@@ -1,0 +1,1 @@
+{"version":3,"sources":["store.js"],"names":["store","rootred"],"mappings":";;;;;;;AACA;;AACA;;;;AAGA,IAAMA,KAAK,GAAG,wBACVC,gBADU,CAAd;eAKeD,K","sourcesContent":["\r\nimport { createStore } from \"redux\";\r\nimport rootred from \"./redux/main\";\r\n\r\n\r\nconst store = createStore(\r\n    rootred\r\n);\r\n\r\n\r\nexport default store;\r\n"],"file":"store.dev.js"}

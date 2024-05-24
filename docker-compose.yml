@@ -1,0 +1,50 @@
+version: '3.8'
+
+services:
+  backend:
+    build:
+      context: ./Backend
+      dockerfile: Dockerfile
+    ports:
+      - "5000:5000"
+    networks:
+      - mynetwork
+
+  backend2:
+    build:
+      context: ./backend2
+      dockerfile: Dockerfile
+    ports:
+      - "8080:80"
+    depends_on:
+      - mysql
+    networks:
+      - mynetwork
+
+  frontend:
+    build:
+      context: ./React2/myapp
+      dockerfile: Dockerfile
+    ports:
+      - "3000:3000"
+    depends_on:
+      - backend
+      - backend2
+    networks:
+      - mynetwork
+
+  mysql:
+    image: mysql:latest
+    environment:
+      MYSQL_ROOT_PASSWORD: imoo125
+      MYSQL_DATABASE: medifast
+    ports:
+      - "3306:3306"
+    volumes:
+      - /home/wadeed/new/FYP_Devops_Practice/medifast.sql:/docker-entrypoint-initdb.d/medifast.sql
+    networks:
+      - mynetwork
+
+networks:
+  mynetwork:
+    driver: bridge

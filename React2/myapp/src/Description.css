@@ -1,0 +1,58 @@
+.chatbox {
+    width: 700px;
+    height: 700px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #080707;
+    border-radius: 5px;
+    font-family: sans-serif;
+    display: flex; 
+  flex-direction: column;
+  background-color: #050505;
+ 
+  }
+  
+  .chatbox ul {
+    flex: 1; /* Allow message list to fill remaining space */
+    overflow-y: scroll; /* Enable scrolling for long message lists */
+  }
+  .chatbox h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: antiquewhite;
+  }
+  .message-container{
+  display: grid;
+  
+  grid-gap: 10px; /* Spacing between messages */
+  margin-bottom: 10px; /* Optional spacing */
+}
+  .message {
+    margin-bottom: 10px;
+    padding: 10px 15px;
+    border-radius: 5px;
+    display: inline-block;
+  }
+  
+  .user {
+    background-color: #e6e2cd;
+  }
+  
+  .chatgpt {
+    background-color: #08030e;
+  }
+  
+  .message p {
+    margin: 0;
+  }
+  
+  input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #050505;
+    border-radius: 5px;
+    box-sizing: border-box;
+   
+  }
+  
+  

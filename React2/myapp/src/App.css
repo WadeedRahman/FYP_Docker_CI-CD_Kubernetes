@@ -1,0 +1,20 @@
+@media (min-width: 768px) {
+  .my-component {
+    width: 50%;
+  }
+}
+
+/* Styles for screens narrower than 768px */
+@media (max-width: 768px) {
+  .my-component {
+    width: 100%;
+  }
+}
+.container {
+  display: flex;
+  flex-wrap: wrap; /* Allow items to wrap on smaller screens */
+}
+
+.item {
+  flex: 1 0 33.33%; /* Take up 1/3rd space on larger screens */
+}

@@ -1,0 +1,6 @@
+chatterbot
+chatterbot-corpus
+spacy==2.3.5
+flask
+flask-cors
+
