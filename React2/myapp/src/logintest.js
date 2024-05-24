@@ -23,7 +23,7 @@ const Login = () => {
         console.log(username, " " ,password)
   
         try {
-            const response = await fetch('http://userAuthentication.php', {
+            const response = await fetch('http://localhost:8080/userAuthentication.php', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json'

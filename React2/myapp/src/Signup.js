@@ -26,7 +26,7 @@ function Signup() {
         }
 
         try {
-            const response = await fetch('http://localhost/Medifast/signup.php', {
+            const response = await fetch('http://localhost:8080/signup.php', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json'
