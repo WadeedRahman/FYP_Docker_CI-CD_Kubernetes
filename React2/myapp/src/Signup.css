@@ -1,0 +1,55 @@
+.wa{
+    background: url ('./ww.jpg'); 
+    
+  }
+  
+  
+  .signup {
+      margin-left: 500px;
+      max-width: 300px;
+      margin-top: 160px;
+      padding: 30px;
+      background-color: hsl(30, 3%, 62%);
+      border: 1px solid #09090a;
+      border-radius: 5px;
+      box-shadow: 0px  10px 20px  ;
+      
+    }
+    
+    .heading {
+      font-size: 24px;
+      margin-bottom: 10px;
+      margin-left: 100px;
+      
+    }
+    
+    .signup input[type="username"],
+    .signup input[type="password"],
+    .signup input[type="email"]  {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 20px;
+      border: 1px solid hsl(0, 0%, 5%);
+      border-radius: 5px;
+      box-sizing: border-box;
+    }
+    
+    .signup input[type="Submit"] {
+      color: #ffffff;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    .signup-buton{
+      background-color: #402daf;
+      font-family: 'Times New Roman', Times, serif;
+      font-weight: 400;
+    }
+    
+  
+  
+  
+  
+  
+  

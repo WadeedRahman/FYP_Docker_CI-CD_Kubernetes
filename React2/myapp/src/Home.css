@@ -1,0 +1,162 @@
+.cont{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    padding: 0rem 0;
+    }
+    .logo{
+        font-size: 2.5rem;
+        font-weight: 600;
+        text-transform: uppercase;
+        padding: 0 0.4rem;
+        letter-spacing: -3px;
+        color:rgb(16, 16, 151) ;
+        border-radius: var(--border-radius);
+        margin-left: 50px;
+        font-family: 'Playfair Display', serif;
+    }
+    .searchbox{
+    width: 555px;
+    border: 2px solid black;
+    border-radius: 3px;
+    padding: 0.5rem 1rem;
+    border-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10%;
+    
+    
+    }
+    .searchbox input{
+        width: 100%;
+        display: block;
+    
+    }
+    .searchicon {
+        color: black;
+        font-size: 1rem;
+        display: inline;
+      
+        
+    }
+    
+    .icons{
+        display: flex;
+        gap: 1rem;
+        
+        
+    }
+    .carticon{
+        font-size: 2rem;
+        color: black;
+        position: relative;
+        margin-right: 50px;
+    
+    }
+    .carticon .count{
+        position: absolute;
+        top: -0.6rem;
+        right: -0.8rem;
+    
+        background-color:rgb(214, 10, 10) ;
+        color: white;
+        font-size: 0.8rem;
+        font-weight: 500;
+        line-height: 1;
+        padding: 2px 4px;
+        border-radius: var(--border-radius-1);
+       
+    }
+    
+    nav hr{
+        background: var(--color-light);
+        height: 0.05rem;
+        width: 100;
+        border: none;
+        outline: none;
+        margin-bottom: 0.5rem;
+        margin-top: -5.6%;
+    }
+    .bn-cont{
+        display: flex;
+        justify-content: space-between;
+        overflow: hidden;
+        background-color: #4bb7e9;
+        align-items: center;
+        margin-top: auto ;
+       
+    }
+    .navlist{
+        margin-left: 300px;
+        display: flex;
+        gap: 3.5rem;
+        text-transform: capitalize;
+        z-index: 111;
+        padding: 0.5rem 0;
+        
+    }
+    .navlist li a{
+    font-weight: 600;
+    position: relative;
+    
+    }
+    .navlist li a:hover{
+        color: var(--color-primary);
+    }
+    
+    .navlist li a:after{
+        content: "";
+        position: absolute;
+        bottom: -0.5rem;
+        left: 0;
+        height: .15rem;
+        width: 0%;
+        border-radius: var(--border-radius-1);
+        background-color: var(--color-primary);
+        transition: var(--transition);
+    }
+    .navlist li a:after:hover{
+        width: 500%;
+    }
+    .logo2{
+        font-size: 2.5rem;
+        font-weight: 600;
+        text-transform: uppercase;
+        padding: 0 0.4rem;
+        letter-spacing: -3px;
+        color: black ;
+        border-radius: var(--border-radius);
+        margin-left: 269px;
+        margin-top: -31px;
+        font-family:'EB Garamond', serif;
+    }
+    .ls{
+       margin-right: 40px;
+        display: flex;
+        gap: 2.5rem;
+        text-transform: capitalize;
+        padding: 0.5rem 0;
+        color: black;
+    
+    }
+    .ls li a{
+        font-weight: 600;
+        position: relative;
+        
+        }
+    .ls li a:hover{
+            color: var(--color-primary);
+        }
+    
+    .ls-cont{
+        justify-content: space-between;
+        display: flex;
+        overflow: hidden;
+        background-color: #4bb7e9
+    }
+    .go{
+        width: 20%;
+        margin-left: 57px;
+        
+    }    
