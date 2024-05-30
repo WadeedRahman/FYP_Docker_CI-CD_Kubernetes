@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Update Medicine</title>
+    <link rel="stylesheet" href="update.css">
+</head>
+<body>
+    <div class="side-menu">
+        <div class="brand-name">
+            <h1 class="head">MediFast</h1>
+        </div>
+        <ul>
+            <li><a href="admin.html"><i class="fa fa-th-large"></i>&nbsp; <span>Dashboard</span></a></li>
+            <li><a href="add.html"><i class="fa fa-plus"></i>&nbsp;<span>Add Products</span></a></li>
+            <li><a href="delete.html"><i class="fa fa-trash"></i>&nbsp;<span>Delete Product</span></a></li>
+            <li><a href="change.html"><i class="fa fa-money"></i>&nbsp;<span>Change Price</span></a></li>
+            <li><a href="update.html"><i class="fa fa-pencil-square-o"></i>&nbsp;<span>Update Product</span></a></li>
+            <li><a href="listmed.html"><i class="fa fa-medkit"></i>&nbsp;<span>List Of Medicines</span></a></li>
+            <li><a href="listuser.html"><i class="fa fa-users"></i>&nbsp;<span>List Of Users</span></a></li>
+            <li><a href="order.html"><i class="fa fa-shopping-cart"></i>&nbsp;<span>Order Status</span></a></li>
+        </ul>
+    </div>
+    <div class="cont">
+        <div class="header">
+            <div class="nav">
+                <div class="search">
+                    <input type="text" placeholder="Search..">
+                    <button type="submit" class="bn"><i class="fa fa-search"></i>.</button>
+                </div>
+                <div class="user">
+                    <ul>
+                        <li class="lis"><a href="login.html">LOGOUT</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    
+        <div class="form-container">
+            <h1>Update Medicine</h1>
+            <form id="updateMedicineForm">
+                <label for="medicineId">Medicine ID:</label>
+                <input type="text" id="medicineId" name="product_id" required>
+                <button type="button" onclick="showUpdateOptions()" class="bt">Next</button>
+            </form>
+
+            <div id="updateOptions" style="display:none;">
+                <h2>Select Fields to Update</h2>
+                <button type="button" onclick="showUpdateDialog('name')" class="bt">Update Medicine Name</button>
+                <button type="button" onclick="showUpdateDialog('price')" class="bt">Update Medicine Price</button>
+                <button type="button" onclick="showUpdateDialog('image')" class="bt">Update Medicine Image</button>
+            </div>
+
+            <div id="updateDialog" class="modal">
+                <div class="modal-content">
+                    <span class="close" onclick="closeDialog()">&times;</span>
+                    <div id="dialogContent"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="update.js"></script>
+    <script>
+        // Check if the user is authenticated
+        const isAuthenticated = localStorage.getItem('authenticated') === 'true';
+        if (!isAuthenticated) {
+            window.location.href = 'login.html';
+        }
+
+        // Logout functionality
+        document.getElementById('logoutButton').addEventListener('click', function() {
+            localStorage.removeItem('authenticated');
+            window.location.href = 'login.html';
+        });
+    </script>
+</body>
+</html>

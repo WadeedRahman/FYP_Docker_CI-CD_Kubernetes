@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>List of Users</title>
+    <link rel="stylesheet" href="listuser.css">
+</head>
+<body>
+   
+    
+        <div class="table-container">
+            <h1>List of Users</h1>
+            <table id="userTable">
+                <thead>
+                    <tr>
+                        <th>User ID</th>
+                        <th>Email</th>
+                        <th>Username</th>
+                        <th>Password</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>wadeed125@gmail.com</td>
+                        <td>Wadeed Ur Rehman</td>
+                        <td>wadeed125</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>wadeed125@gmail.com</td>
+                        <td>Ammara</td>
+                        <td>ammara125</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>sheikh125@gmail.com</td>
+                        <td>Bhaloo</td>
+                        <td>Bhaloo125</td>
+                    </tr>
+                  
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <script>
+        // Check if the user is authenticated
+        const isAuthenticated = localStorage.getItem('authenticated') === 'true';
+        if (!isAuthenticated) {
+            window.location.href = 'login.html';
+        }
+
+        // Logout functionality
+        document.getElementById('logoutButton').addEventListener('click', function() {
+            localStorage.removeItem('authenticated');
+            window.location.href = 'login.html';
+        });
+    </script>
+
+</body>
+</html>

@@ -1,5 +1,4 @@
 version: '3.8'
-
 services:
   backend:
     build:
@@ -30,6 +29,33 @@ services:
     depends_on:
       - backend
       - backend2
+    networks:
+      - mynetwork
+
+  admin_panel:
+    build:
+      context: ./Admin/admin_panel
+      dockerfile: Dockerfile
+    ports:
+      - "8081:80"
+    depends_on:
+      - admin_backend
+    networks:
+      - mynetwork
+
+  admin_backend:
+    build:
+      context: ./Admin/admin_backend
+      dockerfile: Dockerfile
+    ports:
+      - "8082:80"
+    depends_on:
+      - mysql
+    environment:
+      - DB_HOST=mysql
+      - DB_USER=root
+      - DB_PASSWORD=imoo125
+      - DB_NAME=medifast
     networks:
       - mynetwork
 

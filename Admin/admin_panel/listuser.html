@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>List of Users</title>
+    <link rel="stylesheet" href="listuser.css">
+</head>
+<body>
+    <div class="container">
+        <h1>List of Users</h1>
+        <div class="table-container">
+            <table id="userTable">
+                <thead>
+                    <tr>
+                        <th>User ID</th>
+                        <th>Email</th>
+                        <th>Username</th>
+                        <th>Password</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- User data will be inserted here by JavaScript -->
+                    <script src="listuser.js"></script>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <script>
+        // Check if the user is authenticated
+        const isAuthenticated = localStorage.getItem('authenticated') === 'true';
+        if (!isAuthenticated) {
+            window.location.href = 'login.html';
+        }
+
+        // Logout functionality
+        const logoutButton = document.getElementById('logoutButton');
+        if (logoutButton) {
+            logoutButton.addEventListener('click', function() {
+                localStorage.removeItem('authenticated');
+                window.location.href = 'login.html';
+            });
+        }
+    </script>
+</body>
+</html>

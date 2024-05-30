@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="admin.css">
+    <title>Admin Panel</title>
+</head>
+<body>
+    <div class="side-menu">
+        <div class="brand-name">
+            <h1 class="head">MediFast</h1>
+        </div>
+        <ul>
+            <li class="db"><a href="admin.html"><i class="fa fa-th-large"></i>&nbsp; <span>Dashboard</span></a> </li>
+            <li><a href="add.html"><i class="fa fa-plus"></i>&nbsp;<span>Add Products</span></a></li>
+            <li><a href="delete.html"><i class="fa fa-trash"></i>&nbsp;<span>Delete Product</span></a></li>
+            <li><a href="change.html"><i class="fa fa-money"></i>&nbsp;<span>Change Price</span></a></li>
+            <li><a href="update.html"><i class="fa fa-pencil-square-o"></i>&nbsp;<span>Update Product</span></a></li>
+            <li><a href="listmed.html"><i class="fa fa-medkit"></i>&nbsp;<span>List Of Medicines</span></a></li>
+            <li><a href="listuser.html"><i class="fa fa-users"></i>&nbsp;<span>List Of Users</span></a></li>
+            <li><a href="order.html"><i class="fa fa-shopping-cart"></i>&nbsp;<span>Order Status</span></a></li>
+        </ul>
+    </div>
+    <div class="container">
+        <div class="header">
+            <div class="nav">
+                <div class="search">
+                    <input type="text" placeholder="Search..">
+                    <button type="submit" class="bn"><i class="fa fa-search"></i>.</button>
+                </div>
+                <div class="user">
+                    <ul>
+                        <li class="lis"><a href="#" id="logoutButton">LOGOUT</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="content">
+            <div class="cards">
+                <div class="card">
+                    <div class="box">
+                        <h1>100</h1>
+                        <h3>Total Orders</h3>
+                    </div>
+                    <div class="icon-case">
+                        <img src="images\png.png" alt="">
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="box">
+                        <h1>2500</h1>
+                        <h3>Recent Sales</h3>
+                    </div>
+                    <div class="icon-case">
+                        <img src="images\ord.png" alt="">
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="box">
+                        <h1>5</h1>
+                        <h3>Low Stock Items</h3>
+                    </div>
+                    <div class="icon-case">
+                        <img src="images\lo.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script >
+        const isAuthenticated = localStorage.getItem('authenticated') === 'true';
+            const isAccessingAdminPage = window.location.pathname.endsWith('admin.html');
+        
+            if (isAccessingAdminPage && !isAuthenticated) {
+              window.location.href = 'login.html';
+            }
+
+            const logoutButton = document.getElementById('logoutButton');
+    if (logoutButton) {
+      logoutButton.addEventListener('click', function() {
+        localStorage.removeItem('authenticated');
+        window.location.href = 'login.html';
+      });
+    }
+            </script>
+</body>
+</html>

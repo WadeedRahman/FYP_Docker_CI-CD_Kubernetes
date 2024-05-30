@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>List of Medicines</title>
+    <link rel="stylesheet" href="listmed.css">
+</head>
+<body>
+    <div class="container">
+        <h1>List of Medicines</h1>
+        <div id="medicines" class="medicine-cards">
+            <!-- Medicine cards will be inserted here by JavaScript -->
+        </div>
+    </div>
+    <script src="listmed.js"></script>
+    <script>
+        // Check if the user is authenticated
+        const isAuthenticated = localStorage.getItem('authenticated') === 'true';
+        if (!isAuthenticated) {
+            window.location.href = 'login.html';
+        }
+
+        // Logout functionality
+        document.getElementById('logoutButton').addEventListener('click', function() {
+            localStorage.removeItem('authenticated');
+            window.location.href = 'login.html';
+        });
+    </script>
+
+</body>
+</html>

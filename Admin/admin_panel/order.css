@@ -1,0 +1,20 @@
+
+
+.order-status {
+    margin: 20px;
+}
+
+.order-item {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.order-item h2 {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.order-item p {
+    margin: 5px 0;
+}

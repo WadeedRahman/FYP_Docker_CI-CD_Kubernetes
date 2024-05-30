@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 20px;
+    color: #007bff;
+}
+
+.medicine-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.medicine-card {
+    background-color: #aaa7a7;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    padding: 20px;
+    width: 300px;
+    text-align: left;
+    
+}
+
+.medicine-card img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+.medicine-card h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.medicine-card p {
+    margin: 5px 0;
+}
+
+.medicine-card .price {
+    font-weight: bold;
+    color: #007bff;
+}

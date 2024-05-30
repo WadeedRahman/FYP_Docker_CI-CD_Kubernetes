@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login Form</title>
+  <link rel="stylesheet" href="login.css">
+</head>
+<body>
+  <div class="form-container">
+    <h1>Login</h1>
+    <form id="loginForm" action="http://localhost:8082/login.php" method="post" enctype="multipart/form-data">
+      <label for="username">Username</label>
+      <input type="text" id="username" name="adminname" required>
+
+      <label for="password">Password</label>
+      <input type="password" id="password" name="password" required>
+
+      <button type="submit">Login</button>
+    </form>
+    <p id="login-error" class="error-message"></p>
+  </div>
+  <script src="login.js"></script>
+</body>
+</html>

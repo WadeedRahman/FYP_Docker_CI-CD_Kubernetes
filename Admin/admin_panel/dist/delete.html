@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+   
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Delete Medicine</title>
+    <link rel="stylesheet" href="delete.css">
+</head>
+<body>
+    <div class="side-menu">
+        <div class="brand-name">
+            <h1 class="head">MediFast</h1>
+        </div>
+        <ul>
+            <li><a href="admin.html"><i class="fa fa-th-large"></i>&nbsp; <span>Dashboard</span></a> </li>
+            <li><a href="add.html"><i class="fa fa-plus"></i>&nbsp;<span>Add Products</span></a></li>
+            <li><a href="delete.html"><i class="fa fa-trash"></i>&nbsp;<span>Delete Product</span></a></li>
+            <li><a href="change.html"><i class="fa fa-money"></i>&nbsp;<span>Change Price</span></a></li>
+            <li><a href="update.html"><i class="fa fa-pencil-square-o"></i>&nbsp;<span>Update Product</span></a></li>
+            <li><a href="listmed.html"><i class="fa fa-medkit"></i>&nbsp;<span>List Of Medicenes</span></a></li>
+            <li><a href="listuser.html"><i class="fa fa-users"></i>&nbsp;<span>List Of Users</span></a></li>
+
+            <li><a href="order.html"><i class="fa fa-shopping-cart"></i>&nbsp;<span>Order Status</span></a></li>
+
+        </ul>
+    </div>
+    <div class="cont">
+        <div class="header">
+            <div class="nav">
+                <div class="search">
+                    <input type="text" placeholder="Search..">
+                    <button type="submit" class="bn"><i class="fa fa-search"></i>.</button>
+                </div>
+                <div class="user">
+                    <ul>
+                       
+                        <li class="lis"><a href="login.html">LOGOUT</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    <div class="form-container">
+        <h1>Delete Medicine</h1>
+        <form id="deleteMedicineForm">
+            <label for="medicineId">Medicine ID:</label>
+            <input type="text" id="medicineId" name="medicineId" required>
+
+            <label for="medicineName">Medicine Name:</label>
+            <input type="text" id="medicineName" name="medicineName" required>
+
+            <label for="confirmDelete">Confirm Deletion:</label>
+            <input type="checkbox" id="confirmDelete" name="confirmDelete" required>
+            <label for="confirmDelete" class="confirm-label">I confirm that I want to delete this medicine.</label>
+
+            <button type="submit" class="bt">Delete Medicine</button>
+        </form>
+    </div>
+    <script src="delete.js"></script>
+    <script>
+        // Check if the user is authenticated
+        const isAuthenticated = localStorage.getItem('authenticated') === 'true';
+        if (!isAuthenticated) {
+            window.location.href = 'login.html';
+        }
+
+        // Logout functionality
+        document.getElementById('logoutButton').addEventListener('click', function() {
+            localStorage.removeItem('authenticated');
+            window.location.href = 'login.html';
+        });
+    </script>
+
+</body>
+</html>
