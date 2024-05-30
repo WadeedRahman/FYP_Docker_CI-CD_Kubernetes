@@ -14,7 +14,7 @@ document.getElementById('changePriceForm').addEventListener('submit', function(e
         formData.append('oldPrice', oldPrice);
         formData.append('price', updatedPrice);
 
-        fetch('/Admin/backend/change.php', {
+        fetch('http://localhost:8082/change.php', {
             method: 'POST',
             body: formData
         })

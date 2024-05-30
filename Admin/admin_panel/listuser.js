@@ -1,7 +1,7 @@
 document.addEventListener('DOMContentLoaded', function() {
     const userTableBody = document.querySelector('#userTable tbody');
 
-    fetch('/Admin/backend/listuser.php')
+    fetch('http://localhost:8082/listuser.php')
         .then(response => response.json())
         .then(data => {
             if (data.success) {

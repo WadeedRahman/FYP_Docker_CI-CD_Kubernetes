@@ -14,7 +14,7 @@ document.getElementById('deleteMedicineForm').addEventListener('submit', functio
         formData.append('product_id', medicineId);
         formData.append('name', medicineName);
 
-        fetch('/Admin/backend/del.php', {
+        fetch('http://localhost:8082/del.php', {
             method: 'POST',
             body: formData
         })

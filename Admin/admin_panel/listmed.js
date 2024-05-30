@@ -1,7 +1,7 @@
 function displayMedicines() {
     const medicinesContainer = document.getElementById('medicines');
 
-    fetch('/Admin/backend/listmed.php')
+    fetch('http://localhost:8082/listmed.php')
         .then(response => response.json())
         .then(data => {
             if (data.success) {
