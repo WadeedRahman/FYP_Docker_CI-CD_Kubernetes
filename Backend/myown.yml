@@ -20,13 +20,984 @@ conversations:
   - Can you please describe me with more clearity. 
 - - I have a fever from last night and also i have alot of pain in my head. Due to which i can't sleep whole night? 
   - I think you are tire . So, take rest and take medicine like panadol whcih help you to end your pain provide you relief.
-- - Hello
-  - Hi
-- - Who is the owner of Medifast?
-  - Wadeed ur rahman. 
-- - What MediFast will do?
-  - It will help you to solve your basic problems.
-- - Is this data is 100% accurate?
-  - Not, at all.
-- - what can you do?
-  - I help people and treat their disease with the training data that i have.
+- - What is Vitamin A (Retinol)?
+  - Vitamin A is a fat-soluble vitamin important for vision, the immune system, and reproduction. It also helps the heart, lungs, kidneys, and other organs work properly.
+- - Define Vitamin A (Retinol).
+  - Retinol is the active form of Vitamin A, an essential nutrient that plays a crucial role in maintaining healthy vision, skin, and immune function.
+- - Why do we use Vitamin A (Retinol)?
+  - Vitamin A is used to prevent and treat vitamin A deficiency. It is also used to treat certain eye conditions and skin disorders.
+- - What is Vitamin A medicine used for?
+  - Vitamin A is used for treating vitamin A deficiency, improving vision, supporting the immune system, and promoting healthy skin.
+- - What are the advantages of Vitamin A?
+  - Advantages include improved vision, enhanced immune function, healthy skin, and proper functioning of the heart, lungs, and kidneys.
+- - What are the disadvantages of Vitamin A?
+  - Disadvantages may include toxicity if taken in excessive amounts, which can lead to symptoms like nausea, headaches, and dizziness.
+- - What are the benefits of Vitamin A?
+  - Benefits include maintaining healthy vision, boosting the immune system, supporting skin health, and preventing vitamin A deficiency.
+- - What is the purpose of this using Vitamin A?
+  - The purpose is to supplement vitamin A in individuals who are deficient or require additional intake for specific health conditions.
+- - Does this Vitamin A any side effects?
+  - Yes, side effects may include dizziness, nausea, headaches, and in severe cases, vitamin A toxicity.
+- - Does this Vitamin A have any allergic behavior?
+  - Allergic reactions to vitamin A supplements are rare but possible. Symptoms may include rash, itching, and swelling. 
+- - What are the uses of Vitamin A?
+  - It is used to treat vitamin A deficiency, certain skin conditions, and eye disorders.
+- - Under which conditions can we use Vitamin A?
+  - Conditions include vitamin A deficiency, night blindness, and specific skin conditions.
+- - What are the situations in which we can’t use Vitamin A?
+  - It should not be used in individuals with hypervitaminosis A (vitamin A toxicity) or those who are allergic to vitamin A. 
+- - Is Vitamin A easily available in any store OR can we easily find it?
+  - Yes, vitamin A supplements are widely available in pharmacies and health stores.
+- - What are the main ingredients/formula used in this Vitamin A?
+  - The main ingredient is retinol or retinyl esters.
+- - Size of Vitamin A in grams?
+  - The size varies, but typical doses are in micrograms (mcg) or International Units (IU), such as 700-900 mcg for adults. 
+- - What is Vitamin C (Ascorbic Acid)?
+  - Vitamin C is a water-soluble vitamin important for the growth, development, and repair of all body tissues. It is involved in many body functions, including the formation of collagen, absorption of iron, and maintenance of cartilage, bones, and teeth.
+- - Define Vitamin C (Ascorbic Acid).
+  - Ascorbic acid is the chemical name for vitamin C, a potent antioxidant that supports the immune system, helps repair tissues, and enhances iron absorption.
+- - Why do we use Vitamin C (Ascorbic Acid)?
+  - It is used to prevent and treat scurvy, a disease caused by vitamin C deficiency. It is also used to boost the immune system and improve skin health.
+- - What is Vitamin C used for?
+  - Vitamin C is used to treat vitamin C deficiency, boost the immune system, and support skin and overall health.
+- - What are the advantages of Vitamin C?
+  - Advantages include enhanced immune function, improved skin health, and better iron absorption.
+- - What are the disadvantages of Vitamin C?
+  - Disadvantages may include gastrointestinal upset if taken in excessive amounts. 
+- - What are the benefits?
+  - Benefits include protection against immune system deficiencies, cardiovascular diseases, prenatal health problems, and eye disease.
+- - What is the purpose of this medicine?
+  - The purpose is to supplement vitamin C in individuals who are deficient or need additional intake for specific health reasons.
+- - Does this medicine have any side effects?
+  - Yes, side effects may include nausea, diarrhea, and stomach cramps, especially at high doses. 
+- - Does this medicine have any allergic behavior?
+  - Allergic reactions to vitamin C are rare but possible, with symptoms like rash and itching.
+- - What are the uses of this medicine?
+  - It is used to treat vitamin C deficiency, scurvy, and to boost the immune system.
+- - Under which conditions can we use this medicine?
+  - Conditions include vitamin C deficiency, scurvy, and when additional immune support is needed. 
+- - What are the situations in which we can’t use this medicine?
+  - t should not be used by individuals who have a known allergy to vitamin C or those who take certain medications that interact with high doses of vitamin C.
+- - Is it easily available in any store OR can we easily find it?
+  - Yes, vitamin C supplements are widely available in pharmacies and health stores.
+- - What are the main ingredients/formula used in this medicine?
+  - The main ingredient is ascorbic acid.
+- - Size of medicine in grams?
+  - The size varies, but typical doses range from 500 mg to 1000 mg per tablet or capsule.
+- - What is Vitamin D (Calciferol)?
+  - Vitamin D is a fat-soluble vitamin that helps the body absorb calcium and phosphorus, essential for building and maintaining healthy bones.
+- - Define Vitamin D (Calciferol).
+  - Calciferol is the chemical name for vitamin D, which is crucial for bone health and the regulation of calcium and phosphorus in the body.
+- - Why do we use Vitamin D (Calciferol)? 
+  - It is used to treat and prevent vitamin D deficiency, rickets, and osteomalacia. It also supports bone health and the immune system.
+- - What is this medicine used for?
+  - Vitamin D is used to treat vitamin D deficiency, support bone health, and improve the immune system.
+- - What are the advantages?
+  -  Advantages include improved bone health, enhanced immune function, and prevention of certain diseases like rickets and osteomalacia.
+- - What are the disadvantages?
+  - Disadvantages may include the risk of hypercalcemia if taken in excessive amounts, leading to nausea, weakness, and kidney problems.
+- - What are the benefits?
+  - Benefits include maintaining healthy bones and teeth, supporting the immune system, brain, and nervous system, and regulating insulin levels.
+- - What is the purpose of this medicine?
+  - The purpose is to supplement vitamin D in individuals who are deficient or need additional intake for specific health reasons.
+- - Does this medicine have any side effects?
+  - Yes, side effects may include hypercalcemia, nausea, vomiting, weakness, and kidney problems if taken in excessive amounts.
+- - Does this medicine have any allergic behavior?
+  - Allergic reactions to vitamin D are rare but possible, with symptoms like rash, itching, and swelling.
+- - 
+  -  
+- - 
+  - 
+- - 
+  - 
+- - 
+  - 
+  - - 
+  - 
+- - 
+  - 
+- - 
+  -  
+- - 
+  - 
+- - 
+  - 
+- - 
+  - 
+  - - 
+  - 
+- - 
+  - 
+- - 
+  -  
+- - 
+  - 
+- - 
+  - 
+- - 
+  - 
+  - - 
+  - 
+- - 
+  - 
+- - 
+  -  
+- - 
+  - 
+- - 
+  - 
+- - 
+  - 
+  - - 
+  - 
+- - 
+  - 
+- - 
+  -  
+- - 
+  - 
+- - 
+  - 
+- - 
+  - 
+  - - 
+  - 
+- - 
+  - 
+- - 
+  -  
+- - 
+  - 
+- - 
+  - 
+- - 
+  - 
+  - - 
+  - 
+- - 
+  - 
+- - 
+  -  
+- - 
+  - 
+- - 
+  - 
+- - 
+  - 
+  - - 
+  - 
+- - 
+  - 
+- - 
+  -  
+- - 
+  - 
+- - 
+  - 
+- - 
+  - 
+  - - 
+  - 
+- - 
+  - 
+- - 
+  -  
+- - 
+  - 
+- - 
+  - 
+- - 
+  - 
+  - - 
+  - 
+- - 
+  - 
+- - 
+  -  
+- - 
+  - 
+- - 
+  - 
+- - 
+  - 
+  - - 
+  - 
+- - 
+  - 
+- - 
+  -  
+- - 
+  - 
+- - 
+  - 
+- - 
+  - 
+  - - 
+  - 
+- - 
+  - 
+- - 
+  -  
+- - 
+  - 
+- - 
+  - 
+- - 
+  - 
+  - - 
+  - 
+- - 
+  - 
+- - 
+  -  
+- - 
+  - 
+- - 
+  - 
+- - 
+  - 
+  - - 
+  - 
+- - 
+  - 
+- - 
+  -  
+- - 
+  - 
+- - 
+  - 
+- - 
+  - 
+  - - 
+  - 
+- - 
+  - 
+- - 
+  -  
+- - 
+  - 
+- - 
+  - 
+- - 
+  - 
+  - - 
+  - 
+- - 
+  - 
+- - 
+  -  
+- - 
+  - 
+- - 
+  - 
+- - 
+  - 
+  - - 
+  - 
+- - 
+  - 
+- - 
+  -  
+- - 
+  - 
+- - 
+  - 
+- - 
+  - 
+  - - 
+  - 
+- - 
+  - 
+- - 
+  -  
+- - 
+  - 
+- - 
+  - 
+- - 
+  - 
+  - - 
+  - 
+- - 
+  - 
+- - 
+  -  
+- - 
+  - 
+- - 
+  - 
+- - 
+  - 
+  - - 
+  - 
+- - 
+  - 
+- - 
+  -  
+- - 
+  - 
+- - 
+  - 
+- - 
+  - 
+  - - 
+  - 
+- - 
+  - 
+- - 
+  -  
+- - 
+  - 
+- - 
+  - 
+- - 
+  - 
+  - - 
+  - 
+- - 
+  - 
+- - 
+  -  
+- - 
+  - 
+- - 
+  - 
+- - 
+  - 
+  - - 
+  - 
+- - 
+  - 
+- - 
+  -  
+- - 
+  - 
+- - 
+  - 
+- - 
+  - 
+  - - 
+  - 
+- - 
+  - 
+- - 
+  -  
+- - 
+  - 
+- - 
+  - 
+- - 
+  - 
+  - - 
+  - 
+- - 
+  - 
+- - 
+  -  
+- - 
+  - 
+- - 
+  - 
+- - 
+  - 
+  - - 
+  - 
+- - 
+  - 
+- - 
+  -  
+- - 
+  - 
+- - 
+  - 
+- - 
+  - 
+  - - 
+  - 
+- - 
+  - 
+- - 
+  -  
+- - 
+  - 
+- - 
+  - 
+- - 
+  - 
+  - - 
+  - 
+- - 
+  - 
+- - 
+  -  
+- - 
+  - 
+- - 
+  - 
+- - 
+  - 
+  - - 
+  - 
+- - 
+  - 
+- - 
+  -  
+- - 
+  - 
+- - 
+  - 
+- - 
+  - 
+  - - 
+  - 
+- - 
+  - 
+- - 
+  -  
+- - 
+  - 
+- - 
+  - 
+- - 
+  - 
+  - - 
+  - 
+- - 
+  - 
+- - 
+  -  
+- - 
+  - 
+- - 
+  - 
+- - 
+  - 
+  - - 
+  - 
+- - 
+  - 
+- - 
+  -  
+- - 
+  - 
+- - 
+  - 
+- - 
+  - 
+  - - 
+  - 
+- - 
+  - 
+- - 
+  -  
+- - 
+  - 
+- - 
+  - 
+- - 
+  - 
+  - - 
+  - 
+- - 
+  - 
+- - 
+  -  
+- - 
+  - 
+- - 
+  - 
+- - 
+  - 
+  - - 
+  - 
+- - 
+  - 
+- - 
+  -  
+- - 
+  - 
+- - 
+  - 
+- - 
+  - 
+  - - 
+  - 
+- - 
+  - 
+- - 
+  -  
+- - 
+  - 
+- - 
+  - 
+- - 
+  - 
+  - - 
+  - 
+- - 
+  - 
+- - 
+  -  
+- - 
+  - 
+- - 
+  - 
+- - 
+  - 
+  - - 
+  - 
+- - 
+  - 
+- - 
+  -  
+- - 
+  - 
+- - 
+  - 
+- - 
+  - 
+  - - 
+  - 
+- - 
+  - 
+- - 
+  -  
+- - 
+  - 
+- - 
+  - 
+- - 
+  - 
+  - - 
+  - 
+- - 
+  - 
+- - 
+  -  
+- - 
+  - 
+- - 
+  - 
+- - 
+  - 
+  - - 
+  - 
+- - 
+  - 
+- - 
+  -  
+- - 
+  - 
+- - 
+  - 
+- - 
+  - 
+  - - 
+  - 
+- - 
+  - 
+- - 
+  -  
+- - 
+  - 
+- - 
+  - 
+- - 
+  - 
+  - - 
+  - 
+- - 
+  - 
+- - 
+  -  
+- - 
+  - 
+- - 
+  - 
+- - 
+  - 
+  - - 
+  - 
+- - 
+  - 
+- - 
+  -  
+- - 
+  - 
+- - 
+  - 
+- - 
+  - 
+  - - 
+  - 
+- - 
+  - 
+- - 
+  -  
+- - 
+  - 
+- - 
+  - 
+- - 
+  - 
+  - - 
+  - 
+- - 
+  - 
+- - 
+  -  
+- - 
+  - 
+- - 
+  - 
+- - 
+  - 
+  - - 
+  - 
+- - 
+  - 
+- - 
+  -  
+- - 
+  - 
+- - 
+  - 
+- - 
+  - 
+  - - 
+  - 
+- - 
+  - 
+- - 
+  -  
+- - 
+  - 
+- - 
+  - 
+- - 
+  - 
+  - - 
+  - 
+- - 
+  - 
+- - 
+  -  
+- - 
+  - 
+- - 
+  - 
+- - 
+  - 
+  - - 
+  - 
+- - 
+  - 
+- - 
+  -  
+- - 
+  - 
+- - 
+  - 
+- - 
+  - 
+  - - 
+  - 
+- - 
+  - 
+- - 
+  -  
+- - 
+  - 
+- - 
+  - 
+- - 
+  - 
+  - - 
+  - 
+- - 
+  - 
+- - 
+  -  
+- - 
+  - 
+- - 
+  - 
+- - 
+  - 
+  - - 
+  - 
+- - 
+  - 
+- - 
+  -  
+- - 
+  - 
+- - 
+  - 
+- - 
+  - 
+  - - 
+  - 
+- - 
+  - 
+- - 
+  -  
+- - 
+  - 
+- - 
+  - 
+- - 
+  - 
+  - - 
+  - 
+- - 
+  - 
+- - 
+  -  
+- - 
+  - 
+- - 
+  - 
+- - 
+  - 
+  - - 
+  - 
+- - 
+  - 
+- - 
+  -  
+- - 
+  - 
+- - 
+  - 
+- - 
+  - 
+  - - 
+  - 
+- - 
+  - 
+- - 
+  -  
+- - 
+  - 
+- - 
+  - 
+- - 
+  - 
+  - - 
+  - 
+- - 
+  - 
+- - 
+  -  
+- - 
+  - 
+- - 
+  - 
+- - 
+  - 
+  - - 
+  - 
+- - 
+  - 
+- - 
+  -  
+- - 
+  - 
+- - 
+  - 
+- - 
+  - 
+  - - 
+  - 
+- - 
+  - 
+- - 
+  -  
+- - 
+  - 
+- - 
+  - 
+- - 
+  - 
+  - - 
+  - 
+- - 
+  - 
+- - 
+  -  
+- - 
+  - 
+- - 
+  - 
+- - 
+  - 
+  - - 
+  - 
+- - 
+  - 
+- - 
+  -  
+- - 
+  - 
+- - 
+  - 
+- - 
+  - 
+  - - 
+  - 
+- - 
+  - 
+- - 
+  -  
+- - 
+  - 
+- - 
+  - 
+- - 
+  - 
+  - - 
+  - 
+- - 
+  - 
+- - 
+  -  
+- - 
+  - 
+- - 
+  - 
+- - 
+  - 
+  - - 
+  - 
+- - 
+  - 
+- - 
+  -  
+- - 
+  - 
+- - 
+  - 
+- - 
+  - 
+  - - 
+  - 
+- - 
+  - 
+- - 
+  -  
+- - 
+  - 
+- - 
+  - 
+- - 
+  - 
+  - - 
+  - 
+- - 
+  - 
+- - 
+  -  
+- - 
+  - 
+- - 
+  - 
+- - 
+  - 
+  - - 
+  - 
+- - 
+  - 
+- - 
+  -  
+- - 
+  - 
+- - 
+  - 
+- - 
+  - 
+  - - 
+  - 
+- - 
+  - 
+- - 
+  -  
+- - 
+  - 
+- - 
+  - 
+- - 
+  - 
+  - - 
+  - 
+- - 
+  - 
+- - 
+  -  
+- - 
+  - 
+- - 
+  - 
+- - 
+  - 
+  - - 
+  - 
+- - 
+  - 
+- - 
+  -  
+- - 
+  - 
+- - 
+  - 
+- - 
+  - 
+  - - 
+  - 
+- - 
+  - 
+- - 
+  -  
+- - 
+  - 
+- - 
+  - 
+- - 
+  - 
+  - - 
+  - 
+- - 
+  - 
+- - 
+  -  
+- - 
+  - 
+- - 
+  - 
+- - 
+  - 
+  - - 
+  - 
+- - 
+  - 
+- - 
+  -  
+- - 
+  - 
+- - 
+  - 
+- - 
+  - 
+  - - 
+  - 
+- - 
+  - 
+- - 
+  -  
+- - 
+  - 
+- - 
+  - 
+- - 
+  - 
+  fill all the medicine data that you give in yml format that i give and i fill
