@@ -1052,7 +1052,6 @@ conversations:
   - The main ingredients are live strains of beneficial bacteria or yeasts, such as Lactobacillus and Bifidobacterium species.
 - - Size of Probiotics in grams?
   - Dosages vary by product and formulation, typically measured in colony-forming units (CFUs) or as recommended by a healthcare provider.
-
 - - What is Flaxseed Oil?
   - Flaxseed oil is derived from the seeds of the flax plant (Linum usitatissimum) and is rich in alpha-linolenic acid (ALA), an essential Omega-3 fatty acid.
 - - Define Flaxseed Oil.
@@ -1720,8 +1719,6 @@ conversations:
   - The main active ingredient is calcium, often in the form of calcium carbonate or calcium citrate. Supplements may also contain fillers, binders, or other inactive ingredients.
 - - Size of medicine in grams?
   - The dosage of Calcium tablets is typically measured in milligrams (mg) of elemental calcium. Common doses range from 500 mg to 1200 mg per tablet or serving.
-### Ferrous Ascorbate (continued)
-
 - - What is Ferrous Ascorbate?
   - Ferrous ascorbate is an iron supplement that combines ferrous iron with ascorbic acid (vitamin C) to enhance absorption.
 - - Define Ferrous Ascorbate.
@@ -1762,9 +1759,6 @@ conversations:
   - The main ingredients are ferrous iron and ascorbic acid (vitamin C).
 - - Size of medicine in grams?
   - Dosages are typically in milligrams, such as 100 mg of elemental iron combined with ascorbic acid.
-
-### Carbonyl Iron
-
 - - What is Carbonyl Iron?
   - Carbonyl iron is an iron supplement used to treat or prevent low blood levels of iron.
 - - Define Carbonyl Iron.
@@ -1805,8 +1799,6 @@ conversations:
   - The main ingredient is carbonyl iron.
 - - Size of medicine in grams?
   - Dosages are typically in milligrams, such as 45 mg tablets.
-### Ferric Carboxymaltose (Injectable)
-
 - - What is Ferric Carboxymaltose?
   - Ferric carboxymaltose is an intravenous iron supplement used to treat iron deficiency anemia, especially in patients who cannot tolerate oral iron supplements.
 - - Define Ferric Carboxymaltose.
@@ -1847,9 +1839,6 @@ conversations:
   - The main ingredient is ferric carboxymaltose.
 - - Size of medicine in grams?
   - Dosages are typically measured in milliliters for intravenous administration.
-
-### Iron Fumarate
-
 - - What is Iron Fumarate?
   - Iron fumarate is an iron supplement used to treat or prevent iron deficiency anemia.
 - - Define Iron Fumarate.
@@ -1890,9 +1879,6 @@ conversations:
   - The main ingredient is iron fumarate.
 - - Size of medicine in grams?
   - Dosages are typically in milligrams, such as 200 mg tablets.
-
-### Iron Polymaltose Complex
-
 - - What is Iron Polymaltose Complex?
   - Iron polymaltose complex is an iron supplement used to treat or prevent iron deficiency anemia.
 - - Define Iron Polymaltose Complex.
@@ -1933,9 +1919,6 @@ conversations:
   - The main ingredients are iron and polymaltose complex.
 - - Size of medicine in grams?
   - Dosages are typically in milligrams, such as 100 mg of elemental iron combined with polymaltose.
-
-### Sodium Ferric Gluconate Complex (Injectable)
-
 - - What is Sodium Ferric Gluconate Complex?
   - Sodium ferric gluconate complex is an intravenous iron supplement used to treat iron deficiency anemia, especially in patients with chronic kidney disease.
 - - Define Sodium Ferric Gluconate Complex.
@@ -1976,66 +1959,57 @@ conversations:
   - The main ingredients are sodium ferric gluconate complex.
 - - Size of medicine in grams?
   - Dosages are typically measured in milliliters for intravenous administration.
-- Is it easily available in any store OR can we easily find it?
+- - Is it easily available in any store OR can we easily find it?
   - Yes, heme iron polypeptide is available in pharmacies and health stores.
-- What are the main ingredients/formula used in this medicine?
+- - What are the main ingredients/formula used in this medicine?
   - The main ingredient is heme iron polypeptide.
-- Size of medicine in grams?
+- - Size of medicine in grams?
   - Dosages are typically in milligrams, such as 12 mg tablets.
----
-- Is it easily available in any store OR can we easily find it?
+- - Is it easily available in any store OR can we easily find it?
   - Yes, magnesium oxide is available in pharmacies and health stores.
-- What are the main ingredients/formula used in this medicine?
+- - What are the main ingredients/formula used in this medicine?
   - The main ingredients are magnesium and oxygen.
-- Size of medicine in grams?
+- - Size of medicine in grams?
   - Dosages are typically in milligrams, such as 250 mg tablets.
----
-- Is it easily available in any store OR can we easily find it?
+- - Is it easily available in any store OR can we easily find it?
   - Yes, magnesium citrate is available in pharmacies and health stores.
-- What are the main ingredients/formula used in this medicine?
+- - What are the main ingredients/formula used in this medicine?
   - The main ingredients are magnesium and citric acid.
-- Size of medicine in grams?
+- - Size of medicine in grams?
   - Dosages are typically in milligrams, such as 200 mg tablets.
----
-- Is it easily available in any store OR can we easily find it?
+- - Is it easily available in any store OR can we easily find it?
   - Yes, magnesium chloride is available in pharmacies and health stores.
-- What are the main ingredients/formula used in this medicine?
+- - What are the main ingredients/formula used in this medicine?
   - The main ingredients are magnesium and chloride ions.
-- Size of medicine in grams?
+- - Size of medicine in grams?
   - Dosages are typically in milligrams, such as 200 mg tablets.
----
-- Is it easily available in any store OR can we easily find it?
+- - Is it easily available in any store OR can we easily find it?
   - Yes, zinc sulfate is available in pharmacies and health stores.
-- What are the main ingredients/formula used in this medicine?
+- - What are the main ingredients/formula used in this medicine?
   - The main ingredients are zinc and sulfate.
-- Size of medicine in grams?
+- - Size of medicine in grams?
   - Dosages are typically in milligrams, such as 220 mg tablets.
----
-- Is it easily available in any store OR can we easily find it?
+- - Is it easily available in any store OR can we easily find it?
   - Yes, potassium chloride is available in pharmacies and health stores.
-- What are the main ingredients/formula used in this medicine?
+- - What are the main ingredients/formula used in this medicine?
   - The main ingredients are potassium and chloride.
-- Size of medicine in grams?
+- - Size of medicine in grams?
   - Dosages are typically in milligrams, such as 600 mg tablets or as specified by a healthcare provider.
----
-- Is it easily available in any store OR can we easily find it?
+- - Is it easily available in any store OR can we easily find it?
   - Yes, selenium supplements are available in pharmacies and health stores.
-- What are the main ingredients/formula used in this medicine?
+- - What are the main ingredients/formula used in this medicine?
   - The main ingredient is selenium, typically in forms like selenite or selenate.
-- Size of medicine in grams?
+- - Size of medicine in grams?
   - Dosages are typically in micrograms (mcg), such as 50 mcg tablets or as prescribed by a healthcare provider.
----
-- Is it easily available in any store OR can we easily find it?
+- - Is it easily available in any store OR can we easily find it?
   - Yes, iodine supplements, typically as potassium iodide, are available in pharmacies and health stores.
-- What are the main ingredients/formula used in this medicine?
+- - What are the main ingredients/formula used in this medicine?
   - The main ingredient is iodine, typically as potassium iodide.
-- Size of medicine in grams?
+- - Size of medicine in grams?
   - Dosages are typically in micrograms (mcg) or milligrams (mg), such as 150 mcg tablets or as prescribed by a healthcare provider.
----
-- Is it easily available in any store OR can we easily find it?
+- - Is it easily available in any store OR can we easily find it?
   - Yes, copper gluconate is available in pharmacies and health stores.
-- What are the main ingredients/formula used in this medicine?
+- - What are the main ingredients/formula used in this medicine?
   - The main ingredients are copper and gluconic acid.
-- Size of medicine in grams?
+- - Size of medicine in grams?
   - Dosages are typically in milligrams (mg), such as 2 mg tablets or as prescribed by a healthcare provider.
-
