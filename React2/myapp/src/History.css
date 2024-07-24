@@ -1,0 +1,99 @@
+/* Base Styles */
+.order-box {
+    margin: 20px 0;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.order-box table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.order-box th, .order-box td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.order-box th {
+    background-color: #f2f2f2;
+    color: #333;
+}
+
+.order-box td {
+    background-color: #fff;
+}
+
+.error-message {
+    color: red;
+    font-weight: bold;
+}
+
+.order {
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Responsive Styles */
+@media (max-width: 1024px) {
+    .order-box {
+        padding: 10px;
+    }
+
+    .order-box th, .order-box td {
+        padding: 6px;
+    }
+}
+
+@media (max-width: 768px) {
+    .order-box {
+        padding: 8px;
+    }
+
+    .order-box th, .order-box td {
+        padding: 4px;
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .order-box {
+        padding: 5px;
+    }
+
+    .order-box th, .order-box td {
+        padding: 3px;
+        font-size: 0.8rem;
+    }
+
+    .order-box table, .order-box th, .order-box td {
+        display: block;
+        width: 100%;
+    }
+
+    .order-box th {
+        display: none; /* Hide table headers on very small screens */
+    }
+
+    .order-box td {
+        display: block;
+        text-align: right;
+        position: relative;
+        padding-left: 50%;
+        white-space: nowrap;
+    }
+
+    .order-box td:before {
+        content: attr(data-label); /* Use the attribute value as the label */
+        position: absolute;
+        left: 0;
+        width: 50%;
+        padding-left: 10px;
+        font-weight: bold;
+        text-align: left;
+        white-space: nowrap;
+    }
+}

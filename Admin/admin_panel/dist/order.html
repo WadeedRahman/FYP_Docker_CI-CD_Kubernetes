@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Order Status</title>
+    <link rel="stylesheet" href="order.css">
+</head>
+<body>
+   
+    
+        <div class="order-status">
+            <h1>Order Status</h1>
+            <div class="order-list">
+                <div class="order-item">
+                    <h2>Order #123456</h2>
+                    <p>Status: Processing</p>
+                    <p>Items: Medicine A, Medicine B</p>
+                    <p>Total: $50.00</p>
+                </div>
+                <div class="order-item">
+                    <h2>Order #789012</h2>
+                    <p>Status: Delivered</p>
+                    <p>Items: Medicine C, Medicine D</p>
+                    <p>Total: $70.00</p>
+                </div>
+                <!-- Add more order items here -->
+            </div>
+        </div>
+    </div>
+    <script>
+        // Check if the user is authenticated
+        const isAuthenticated = localStorage.getItem('authenticated') === 'true';
+        if (!isAuthenticated) {
+            window.location.href = 'login.html';
+        }
+
+        // Logout functionality
+        document.getElementById('logoutButton').addEventListener('click', function() {
+            localStorage.removeItem('authenticated');
+            window.location.href = 'login.html';
+        });
+    </script>
+
+</body>
+</html>

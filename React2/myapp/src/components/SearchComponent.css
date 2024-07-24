@@ -1,0 +1,33 @@
+.fill {
+    font-size: 1.9rem;
+    margin-left: 90%;
+    color: #361cc9;
+    position: relative; /* Create a positioning context */
+    display: inline-block; /* Ensure the icon and count stay together */
+  }
+  
+
+  .cart-count {
+    background-color: rgb(255, 30, 0);
+    color: white;
+    border-radius: 50%;
+    display: inline-block;
+    text-align: center;
+    min-width: 10px;
+    padding: 0.2em 0.2em;
+    position: absolute;
+    top: -10px; /* Adjust this value */
+    right: -10px; /* Adjust this value */
+    font-size: 0.4em;
+  }
+  .arrow{
+    color: black;
+    margin-right: 1200px;
+    font-size: 2rem;
+  }
+  .Shopcart{
+    color: white;
+	text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+	text-align: center;
+  margin-bottom: 1%;
+  }

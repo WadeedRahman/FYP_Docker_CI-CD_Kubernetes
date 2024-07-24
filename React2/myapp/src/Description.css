@@ -1,0 +1,107 @@
+.chatbox {
+    width: 700px;
+    height: 700px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #080707;
+    border-radius: 5px;
+    font-family: sans-serif;
+    display: flex; 
+  flex-direction: column;
+  background-color: #050505;
+ 
+  }
+  
+  .chatbox ul {
+    flex: 1; /* Allow message list to fill remaining space */
+    overflow-y: scroll; /* Enable scrolling for long message lists */
+  }
+  .chatbox h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: antiquewhite;
+  }
+  .message-container{
+  display: grid;
+  
+  grid-gap: 10px; /* Spacing between messages */
+  margin-bottom: 10px; /* Optional spacing */
+}
+  .message {
+    margin-bottom: 10px;
+    padding: 10px 15px;
+    border-radius: 5px;
+    display: inline-block;
+  }
+  
+  .user {
+    background-color: #e6e2cd;
+  }
+  
+  .chatgpt {
+    background-color: #f51515;
+  }
+  
+  .message p {
+    margin: 0;
+  }
+  
+  input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #050505;
+    border-radius: 5px;
+    box-sizing: border-box;
+   
+  }
+  .bun{
+    color: #050505;
+    width: 40%;
+    font-size: large;
+    padding: 5px 10px;
+    border: 1px ;
+    border-radius: 5px;
+    
+   margin-left: 600px;
+   margin-top: -36px;
+   
+  }
+  .arro{
+    color: rgb(248, 244, 244);
+    margin-right: 1200px;
+    font-size: 2rem;
+  }
+  @media (max-width: 768px) {
+    .chatbox {
+        height: 70vh; /* Adjust height for smaller screens */
+    }
+
+    .bun {
+        width: 100%; /* Full-width button on smaller screens */
+        margin: 10px 0; /* Adjusted margin for spacing */
+    }
+
+    .arro {
+        font-size: 1.5rem; /* Smaller font size for icons */
+    }
+}
+
+@media (max-width: 480px) {
+    .chatbox {
+        height: 60vh; /* Further adjust height for very small screens */
+        padding: 10px;
+        
+    }
+
+    .bun {
+        font-size: medium; /* Smaller font size for buttons */
+    }
+
+    .arro {
+        font-size: 1.2rem; /* Further reduce icon font size */
+    }
+
+    .message {
+        max-width: 90%; /* Increase message width on smaller screens */
+    }
+}

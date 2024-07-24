@@ -1,0 +1,491 @@
+
+     /* Base Styles 
+.cont {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0;
+}
+
+.logo {
+    font-size: 2.5rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 0 0.4rem;
+    letter-spacing: -3px;
+    color: rgb(16, 16, 151);
+    margin-left: 50px;
+    font-family: 'Playfair Display', serif;
+}
+
+.searchbox {
+    width: 555px;
+    border: 2px solid black;
+    border-radius: 3px;
+    padding: 0.5rem 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: -10%;
+}
+
+.searchbox input {
+    width: 100%;
+}
+
+.searchicon {
+    color: black;
+    font-size: 1rem;
+}
+
+.icons {
+    display: flex;
+    gap: 1rem;
+}
+
+.carticon {
+    font-size: 2rem;
+    color: black;
+    position: relative;
+    margin-right: 50px;
+}
+
+.carticon .count {
+    position: absolute;
+    top: -0.6rem;
+    right: -0.8rem;
+    background-color: rgb(214, 10, 10);
+    color: white;
+    font-size: 0.8rem;
+    font-weight: 500;
+    line-height: 1;
+    padding: 2px 4px;
+    border-radius: 50%;
+}
+
+nav hr {
+    background: var(--color-light);
+    height: 0.05rem;
+    width: 100%;
+    border: none;
+    margin-bottom: 0.5rem;
+    margin-top: -5.6%;
+}
+
+.bn-cont {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #4bb7e9;
+    margin-top: auto;
+}
+
+.navlist {
+    margin-left: 300px;
+    display: flex;
+    gap: 3.5rem;
+    text-transform: capitalize;
+    padding: 0.5rem 0;
+}
+
+.navlist li a {
+    font-weight: 600;
+    position: relative;
+}
+
+.navlist li a:hover {
+    color: var(--color-primary);
+}
+
+.navlist li a:after {
+    content: "";
+    position: absolute;
+    bottom: -0.5rem;
+    left: 0;
+    height: 0.15rem;
+    width: 0%;
+    border-radius: var(--border-radius-1);
+    background-color: var(--color-primary);
+    transition: var(--transition);
+}
+
+.navlist li a:hover:after {
+    width: 100%;
+}
+
+.logo2 {
+    font-size: 2.5rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 0 0.4rem;
+    letter-spacing: -3px;
+    color: black;
+    margin-left: 185px;
+    margin-top: -34px;
+    font-family: 'EB Garamond', serif;
+}
+
+.ls {
+    margin-right: 40px;
+    display: flex;
+    gap: 2.5rem;
+    text-transform: capitalize;
+    padding: 0.5rem 0;
+    color: black;
+}
+
+.ls li a {
+    font-weight: 600;
+    position: relative;
+}
+
+.ls li a:hover {
+    color: var(--color-primary);
+}
+
+.ls-cont {
+    justify-content: space-between;
+    display: flex;
+    background-color: #4bb7e9;
+}
+
+.go {
+    width: 20%;
+    margin-left: -30px;
+}
+
+Responsive Styles 
+@media (max-width: 1024px) {
+    .logo, .logo2 {
+        font-size: 2rem;
+        margin-left: 20px;
+    }
+
+    .searchbox {
+        width: 70%;
+        margin-left: 0;
+    }
+
+    .carticon {
+        margin-right: 20px;
+    }
+
+    .navlist {
+        margin-left: 0;
+        gap: 2rem;
+    }
+
+    .ls {
+        gap: 1.5rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .cont {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .logo, .logo2 {
+        font-size: 1.5rem;
+        margin-left: 10px;
+    }
+
+    .searchbox {
+        width: 100%;
+        margin: 10px 0;
+    }
+
+    .navlist, .ls {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 1rem;
+        margin-left: 0;
+    }
+
+    .icons {
+        margin-top: 10px;
+        margin-right: 10px;
+    }
+
+    .bn-cont {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}
+*/
+
+/* Base Styles */
+.cont {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0;
+}
+
+.logo {
+    font-size: 2.5rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 0 0.4rem;
+    letter-spacing: -3px;
+    color: rgb(16, 16, 151);
+    margin-left: 50px;
+    font-family: 'Playfair Display', serif;
+}
+
+.searchbox {
+    width: 555px;
+    border: 2px solid black;
+    border-radius: 3px;
+    padding: 0.5rem 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: -10%;
+}
+
+.searchbox input {
+    width: 100%;
+}
+
+.searchicon {
+    color: black;
+    font-size: 1rem;
+}
+
+.icons {
+    display: flex;
+    gap: 1rem;
+}
+
+.carticon {
+    font-size: 2rem;
+    color: black;
+    position: relative;
+    margin-right: 50px;
+}
+
+.carticon .count {
+    position: absolute;
+    top: -0.6rem;
+    right: -0.8rem;
+    background-color: rgb(214, 10, 10);
+    color: white;
+    font-size: 0.8rem;
+    font-weight: 500;
+    line-height: 1;
+    padding: 2px 4px;
+    border-radius: 50%;
+}
+
+nav hr {
+    background: var(--color-light);
+    height: 0.05rem;
+    width: 100%;
+    border: none;
+    margin-bottom: 0.5rem;
+    margin-top: -5.6%;
+}
+
+.bn-cont {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #4bb7e9;
+    margin-top: auto;
+}
+
+.navlist {
+    margin-left: 300px;
+    display: flex;
+    gap: 3.5rem;
+    text-transform: capitalize;
+    padding: 0.5rem 0;
+}
+
+.navlist li a {
+    font-weight: 600;
+    position: relative;
+}
+
+.navlist li a:hover {
+    color: var(--color-primary);
+}
+
+.navlist li a:after {
+    content: "";
+    position: absolute;
+    bottom: -0.5rem;
+    left: 0;
+    height: 0.15rem;
+    width: 0%;
+    border-radius: var(--border-radius-1);
+    background-color: var(--color-primary);
+    transition: var(--transition);
+}
+
+.navlist li a:hover:after {
+    width: 100%;
+}
+
+.logo2 {
+    font-size: 2.5rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 0 0.4rem;
+    letter-spacing: -3px;
+    color: black;
+    margin-left: 185px;
+    margin-top: -34px;
+    font-family: 'EB Garamond', serif;
+}
+
+.ls {
+    margin-right: 40px;
+    display: flex;
+    gap: 2.5rem;
+    text-transform: capitalize;
+    padding: 0.5rem 0;
+    color: black;
+}
+
+.ls li a {
+    font-weight: 600;
+    position: relative;
+}
+
+.ls li a:hover {
+    color: var(--color-primary);
+}
+
+.ls-cont {
+    justify-content: space-between;
+    display: flex;
+    background-color: #4bb7e9;
+}
+
+.go {
+    width: 20%;
+    margin-left: -30px;
+}
+
+/* Responsive Styles */
+@media (max-width: 1024px) {
+    .logo {
+        font-size: 2rem;
+        margin-left: 20px;
+    }
+    .logo2 {
+        font-size: 2rem;
+        margin-left: 160px;
+        margin-top: -27px;
+    }
+
+    .searchbox {
+        width: 70%;
+        margin-left: 0;
+    }
+
+    .carticon {
+        margin-right: 20px;
+    }
+
+    .navlist {
+        margin-left: 10px;
+        gap: 2rem;
+    }
+
+    .ls {
+        gap: 1.5rem;
+    }
+    .go{
+        margin-left: -10px;
+    }
+}
+
+@media (max-width: 768px) {
+    .cont {
+        flex-direction: column;
+        align-items: flex-start;
+       
+    }
+
+    .logo {
+        font-size: 1.5rem;
+        margin-left: 10px;
+    }
+    .logo2{
+        font-size: 1.5rem;
+        margin-left: 130px; 
+        margin-top:-21px ; 
+    }
+.go{
+    margin-left: 10px;
+}
+    .searchbox {
+        width: 90%;
+        margin: 10px 0;
+        margin-left: 20px;
+        margin-top:-130px ;
+    }
+
+    .navlist, .ls {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 1rem;
+        margin-left: 10px;
+    }
+
+    .icons {
+        margin-top: 10px;
+        margin-right: 20px;
+    }
+
+    .bn-cont {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .carticon{
+        margin-bottom: 20px;
+        margin-left: 20px;
+    }
+}
+
+@media (max-width: 600px) {
+    .nav-toggle {
+        display: block;
+        cursor: pointer;
+        font-size: 2rem;
+        margin-right: 20px;
+    }
+
+    .navlist, .ls {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        background-color: #4bb7e9;
+       
+    }
+
+    .navlist.active, .ls.active {
+        display: flex;
+    }
+
+    .navlist li, .ls li {
+        width: 100%;
+        text-align: left;
+        padding: 10px 0;
+    }
+
+    .icons {
+        justify-content: space-between;
+        width: 100%;
+    }
+}
+
+@media (min-width: 601px) {
+    .nav-toggle {
+        display: none;
+    }
+}

@@ -1,0 +1,165 @@
+.loginForm {
+  display: inline-block;
+  background-color: hsl(30, 3%, 62%);
+  box-shadow: 0px 10px 20px;
+  margin: 40px auto;
+  max-width: 400px;
+  max-height: 800px;
+  padding: 40px;
+  border: 1px solid #09090a;
+}
+
+.login-form input, textarea {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin: 10px auto;
+  padding: 10px;
+  font-family: 'Times New Roman', Times, serif;
+  background-color: #f8eaea;
+  border: 1px solid #0f0e0e;
+}
+
+.login {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 300px;
+  margin-top: 50px;
+  padding: 30px;
+  background-color: hsl(30, 3%, 62%);
+  border: 1px solid #0a0a0a;
+  border-radius: 5px;
+  box-shadow: 0px 10px 20px;
+}
+
+.heading {
+  font-size: 24px;
+  margin-bottom: 10px;
+  margin-left: 0; /* Center aligned in responsive view */
+  text-align: center; /* Center align text */
+}
+
+.login input[type="username"],
+.login input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid hsl(0, 0%, 5%);
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.login-button {
+  background-color: #231496;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 500;
+  margin-left: 0;
+  margin-top: 5px;
+  padding: 8px 16px;
+  font-size: 20px;
+  box-shadow: 0 2px 4px;
+  display: block;
+  width: 100%; /* Full width on small screens */
+}
+
+.pass {
+  text-align: center; /* Center align text */
+  margin: 10px 0; /* Margin for spacing */
+}
+
+.login-form-footer {
+  margin-top: 20px;
+}
+
+.FP {
+  display: block;
+  text-align: center; /* Center align text */
+  margin: 10px 0; /* Margin for spacing */
+}
+
+/* Media Queries for Responsiveness */
+
+@media (max-width: 1200px) {
+  .loginForm {
+    max-width: 350px;
+  }
+
+  .login {
+    max-width: 280px;
+    padding: 20px;
+  }
+
+  .heading {
+    font-size: 22px;
+  }
+
+  .login-button {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 992px) {
+  .loginForm {
+    max-width: 300px;
+  }
+
+  .login {
+    max-width: 260px;
+    padding: 15px;
+  }
+
+  .heading {
+    font-size: 20px;
+  }
+
+  .login-button {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 768px) {
+  .loginForm {
+    max-width: 100%;
+    padding: 20px;
+  }
+
+  .login {
+    max-width: 50%;
+    padding: 15px;
+    margin-top: 30px;
+  }
+
+  .heading {
+    font-size: 18px;
+  }
+
+  .login-button {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 576px) {
+  .loginForm {
+    padding: 15px;
+    
+  }
+
+  .login {
+    padding: 10px;
+    margin-top: 50px;
+    width: 50%;
+  }
+
+  .heading {
+    font-size: 16px;
+    margin-right: 150px;
+  }
+
+  .login-button {
+    font-size: 12px;
+  }
+
+  .pass, .FP {
+    margin: 5px 0;
+  }
+}

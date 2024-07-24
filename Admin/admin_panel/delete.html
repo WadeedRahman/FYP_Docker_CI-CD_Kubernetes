@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Delete Medicine</title>
+    <link rel="stylesheet" href="delete.css">
+</head>
+<body>
+    <div class="side-menu">
+        <div class="brand-name">
+            <h1 class="head">MediFast</h1>
+        </div>
+        <ul>
+            <li><a href="admin.html"><i class="fa fa-th-large"></i>&nbsp; <span>Dashboard</span></a> </li>
+            <li><a href="add.html"><i class="fa fa-plus"></i>&nbsp;<span>Add Products</span></a></li>
+            <li><a href="delete.html"><i class="fa fa-trash"></i>&nbsp;<span>Delete Product</span></a></li>
+            <li><a href="change.html"><i class="fa fa-money"></i>&nbsp;<span>Change Price</span></a></li>
+            <li><a href="listuser.html"><i class="fa fa-users"></i>&nbsp;<span>List Of Users</span></a></li>
+            <li><a href="orderstatus.html"><i class="fa fa-ambulance"></i>&nbsp;<span>Order Status</span></a></li>
+            <li><a href="deleteuser.html"><i class="fa fa-minus"></i>&nbsp;<span>Delete User</span></a></li>
+        </ul>
+    </div>
+    <div class="cont">
+        <div class="header">
+            
+               
+                    <ul>
+                        <li class="lis"><a id="logoutButton" href="#">LOGOUT</a></li>
+                    </ul>
+             
+            
+        </div>
+        <div class="form-container">
+            <h1>Delete Medicine</h1>
+            <form id="deleteMedicineForm" action="http://localhost:8082/del.php" method="post" enctype="multipart/form-data>
+                <label for="medicineId">Medicine ID:</label>
+                <input type="text" id="medicineId" name="product_id" required>
+
+                <label for="medicineName">Medicine Name:</label>
+                <input type="text" id="medicineName" name="name" required>
+
+                <label for="confirmDelete">Confirm Deletion:</label>
+                <input type="checkbox" id="confirmDelete" name="confirmDelete" required>
+                <label for="confirmDelete" class="confirm-label">I confirm that I want to delete this medicine.</label>
+
+                <button type="submit" class="bt">Delete Medicine</button>
+            </form>
+        </div>
+    </div>
+    <script src="delete.js"></script>
+</body>
+</html>

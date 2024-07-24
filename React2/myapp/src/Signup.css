@@ -1,0 +1,130 @@
+/* Background styling */
+
+/* Signup form styling */
+.signup {
+  margin: 0 auto;
+  max-width: 300px;
+  margin-top: 90px;
+  padding: 30px;
+  background-color: hsl(30, 3%, 62%);
+  border: 1px solid #09090a;
+  border-radius: 5px;
+  box-shadow: 0px 10px 20px;
+}
+
+/* Heading styling */
+.heading {
+  font-size: 24px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+/* Input field styling */
+.signup input[type="username"],
+.signup input[type="password"],
+.signup input[type="email"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid hsl(0, 0%, 5%);
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+/* Submit button styling */
+.signup input[type="Submit"] {
+  color: #ffffff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #4a3cb8; /* Default button background color */
+}
+
+/* Signup button styling */
+.signup-button {
+  background-color: #4a3cb8;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 500;
+  margin-left: 0; /* Adjusted for responsiveness */
+  margin-top: 5px;
+  padding: 8px 16px;
+  font-size: 20px;
+  box-shadow: 0 2px 4px;
+  width: 100%; /* Full width on small screens */
+}
+
+/* Footer styling */
+.signupform-footer {
+  margin-top: 20px;
+}
+
+/* Media Queries for Responsiveness */
+
+/* For screens up to 1200px */
+@media (max-width: 1200px) {
+  .signup {
+    max-width: 350px;
+    padding: 25px;
+  }
+
+  .heading {
+    font-size: 22px;
+  }
+
+  .signup-button {
+    font-size: 18px;
+  }
+}
+
+/* For screens up to 992px */
+@media (max-width: 992px) {
+  .signup {
+    max-width: 290px;
+    padding: 20px;
+  }
+
+  .heading {
+    font-size: 20px;
+  }
+
+  .signup-button {
+    font-size: 16px;
+  }
+}
+
+/* For screens up to 768px */
+@media (max-width: 768px) {
+  .signup {
+    max-width: 50%;
+    padding: 15px;
+    margin-top: 40px;
+  }
+
+  .heading {
+    font-size: 20px;
+    margin-left: 50px;
+  }
+
+  .signup-button {
+    font-size: 14px;
+    padding: 6px 12px;
+  }
+}
+
+/* For screens up to 576px */
+@media (max-width: 576px) {
+  .signup {
+    padding: 10px;
+    margin-top: 20px;
+  }
+
+  .heading {
+    font-size: 16px;
+  }
+
+  .signup-button {
+    font-size: 12px;
+    padding: 4px 8px;
+  }
+}

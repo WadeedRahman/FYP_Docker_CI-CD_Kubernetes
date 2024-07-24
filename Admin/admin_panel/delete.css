@@ -1,0 +1,346 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #9c5050;
+    background-image: url("bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* Base styles for larger screens */
+.form-container {
+    background-color: white;
+    padding: 40px;
+    border-radius: 8px;
+    margin: 0 auto; /* Center the container */
+    margin-top: 5%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 90%; /* Adjust width to be responsive */
+    max-width: 500px; /* Maximum width */
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="checkbox"] {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.confirm-label {
+    display: inline;
+    margin-left: 5px;
+}
+
+.head {
+    color: #3709e0;
+    margin-right: 55px;
+}
+
+.bt {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.bt:hover {
+    background-color: #0056b3; /* Adjust hover color */
+}
+
+.side-menu {
+    position: fixed;
+    background: #4bb7e9;
+    width: 250px; /* Adjust width to be more responsive */
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    overflow: auto; /* Ensure overflow is handled */
+}
+
+.side-menu .brand-name {
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.side-menu li {
+    font-size: 20px;
+    padding: 10px 20px; /* Adjust padding for smaller screens */
+    display: flex;
+    align-items: center;
+}
+
+.side-menu li a {
+    color: white;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    text-decoration: none;
+}
+
+.side-menu li:hover {
+    background: white;
+}
+
+.side-menu li:hover a {
+    color: #46098d;
+}
+
+.cont {
+    margin-left: 250px; /* Space for side menu */
+    padding: 20px;
+    width: calc(100% - 250px); /* Adjust width to fit content */
+    background: #f1f1f1;
+    position: fixed;
+    height: 100vh;
+    overflow-y: auto; /* Enable scrolling for content area */
+}
+
+.header {
+    width: calc(100% - 250px); /* Adjust width to fit content */
+    height: 10vh;
+    background: rgb(244, 245, 242);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    position: fixed;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.lis {
+    display: inline-block;
+    text-align: right;
+    font-size: larger;
+    font-weight: bold;
+}
+
+.lis a {
+    text-decoration: none;
+    color: #050505;
+}
+
+.bn {
+    width: 40px;
+    height: 40px;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bn i {
+    font-size: 20px;
+}
+
+/* Responsive styles for tablets and smaller screens */
+@media screen and (max-width: 1200px) {
+    .side-menu {
+        width: 200px; /* Adjust for smaller screens */
+    }
+
+    .cont {
+        margin-left: 200px;
+        width: calc(100% - 200px);
+    }
+
+    .header {
+        width: calc(100% - 200px);
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .side-menu {
+        width: 150px; /* Further adjust for smaller screens */
+    }
+
+    .cont {
+        margin-left: 150px;
+        width: calc(100% - 150px);
+    }
+
+    .header {
+        width: calc(100% - 150px);
+    }
+
+    .side-menu li {
+        font-size: 18px;
+        padding: 10px 15px;
+    }
+
+    .cont .header .nav .search input[type=text] {
+        width: 60%; /* Adjust for smaller header */
+    }
+
+    .lis {
+        margin-left: 100px; /* Adjust for smaller screens */
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .side-menu {
+        width: 100%;
+        position: relative;
+        height: auto;
+        min-height: auto;
+        display: none; /* Hide the menu by default */
+    }
+
+    .side-menu.active {
+        display: block; /* Show menu when active */
+    }
+
+    .cont {
+        margin-left: 0;
+        width: 100%;
+    }
+
+    .header {
+        width: 100%;
+    }
+
+    .cont .header .nav .search input[type=text] {
+        width: 100%; /* Full width for mobile */
+    }
+
+    .form-container {
+        width: 95%; /* Wider form container on mobile */
+        padding: 20px;
+        margin-top: 5%;
+    }
+}
+
+@media (max-width: 475px) {
+    .form-container {
+        padding: 20px;
+        margin-top: 20%;
+        width: 95%;
+    }
+
+    .side-menu {
+        width: 100%;
+        height: auto;
+        position: relative;
+    }
+
+    .side-menu li {
+        font-size: 18px;
+        padding: 8px 10px;
+    }
+
+    .side-menu .brand-name {
+        height: 8vh;
+    }
+
+    .cont {
+        margin-left: 0;
+        padding: 10px;
+        width: 100%;
+    }
+
+    .header {
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    .header .nav {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .header .nav .search {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .header .nav .search input[type="text"] {
+        width: 90%;
+    }
+
+    .header .nav .user {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .lis {
+        text-align: center;
+        margin: 0;
+    }
+}
+
+@media (max-width: 360px) {
+    .form-container {
+        width: 100%;
+        padding: 10px;
+    }
+
+    input[type="text"],
+    input[type="file"],
+    textarea,
+    input[type="number"] {
+        width: calc(100% - 8px);
+        padding: 6px;
+    }
+
+    .bt {
+        padding: 6px;
+    }
+
+    .side-menu {
+        width: 100%;
+        height: auto;
+        position: relative;
+    }
+
+    .side-menu .brand-name {
+        display: none;
+    }
+
+    .cont {
+        width: 100%;
+        padding-top: 20vh;
+    }
+
+    .header {
+        width: 100%;
+    }
+
+    .side-menu li {
+        font-size: 12px;
+        padding: 10px 10px;
+    }
+
+    .side-menu li span {
+        display: none;
+    }
+
+    .header .nav .search input[type=text] {
+        width: 80%;
+    }
+}
