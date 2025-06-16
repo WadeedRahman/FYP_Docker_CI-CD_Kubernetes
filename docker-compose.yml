@@ -67,7 +67,7 @@ services:
     ports:
       - "3306:3306"
     volumes:
-      - /home/wadeed/new/FYP_Devops_Practice/medifast.sql:/docker-entrypoint-initdb.d/medifast.sql
+      - /home/wadeed/Documents/FYP_Docker_CI-CD_Kubernetes/medifast.sql:/docker-entrypoint-initdb.d/medifast.sql
     networks:
       - mynetwork
 

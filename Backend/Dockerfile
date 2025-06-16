@@ -8,34 +8,31 @@ ENV FLASK_RUN_PORT=5000
 
 # Install system dependencies
 RUN apt-get update && \
-    apt-get install -y gcc libpq-dev && \
+    apt-get install -y gcc g++ libpq-dev && \
     rm -rf /var/lib/apt/lists/*
 
-# Install spacy and its model
-RUN pip install --no-cache-dir spacy==2.3.5 && \
+# Install spaCy and language model
+RUN pip install --upgrade pip && \
+    pip install --no-cache-dir spacy==2.3.5 && \
     python -m spacy download en_core_web_sm && \
     python -m spacy link en_core_web_sm en
 
-# Create and set the working directory in the container
+# Set the working directory
 WORKDIR /app
 
-# Copy the requirements file and install dependencies
+# Copy requirements and install Python dependencies
 COPY requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt
 
-COPY myown.yml /usr/local/lib/python3.8/site-packages/chatterbot_corpus/data/custom
-COPY M1.yml  /usr/local/lib/python3.8/site-packages/chatterbot_corpus/data/custom
+# Copy ChatterBot custom data
+COPY myown.yml /usr/local/lib/python3.8/site-packages/chatterbot_corpus/data/custom/
+COPY M1.yml /usr/local/lib/python3.8/site-packages/chatterbot_corpus/data/custom/
 
-
-
-# Copy all files from the current directory to the working directory in the container
+# Copy application code
 COPY . .
 
-# Expose the Flask port
+# Expose the app port
 EXPOSE 5000
 
-# Command to run the Flask application
+# Run the app
 CMD ["flask", "run"]
-
-# Command to run the Flask application
-#CMD ["/app/venv/bin/python", "main.py"]
