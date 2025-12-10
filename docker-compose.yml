@@ -1,4 +1,3 @@
-version: '3.8'
 services:
   backend:
     build:
@@ -8,7 +7,6 @@ services:
       - "5000:5000"
     networks:
       - mynetwork
-      -n2
 
   backend2:
     build:
@@ -72,7 +70,7 @@ services:
     ports:
       - "3306:3306"
     volumes:
-      - FYP_Docker_CI-CD_Kubernetes/medifast.sql:/docker-entrypoint-initdb.d/medifast.sql
+      - ./medifast.sql:/docker-entrypoint-initdb.d/medifast.sql
     networks:
       - mynetwork
 
